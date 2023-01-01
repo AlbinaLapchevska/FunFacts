@@ -1,0 +1,23 @@
+nav {
+  position: absolute;
+  margin-top: -40px;
+  margin-left: -10px;
+  height: 80px;
+  width: 100%;
+  background-image: linear-gradient(to right, #00ffa6, rgb(183, 0, 255));
+}
+ul {
+  padding-right: 15px;
+  margin: 0;
+  display: inline-flex;
+  list-style-type: none;
+  justify-content: end;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  padding: 15px 90px;
+  font-weight: 700;
+  font-size: 34px;
+}

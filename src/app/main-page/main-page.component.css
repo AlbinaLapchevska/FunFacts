@@ -1,0 +1,14 @@
+.main {
+  padding-top: 680px;
+  margin-bottom: 80px;
+  margin-left: -8px;
+  width: 100%;
+  background-image: linear-gradient(to right, rgb(183, 0, 255), #00ffa6);
+  color: black;
+  font-weight: 700;
+  font-size: 34px;
+  height: 130px;
+  text-align: center;
+  border-radius: 20%;
+  box-shadow: 15px 10px 20px #00ffa6;
+}

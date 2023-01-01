@@ -1,0 +1,9 @@
+.text-intro {
+  padding: 20px 40px;
+  background-color: rgba(0, 255, 166, 0.35);
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: bold;
+  text-align: justify;
+  border-radius: 50px 0px;
+}
