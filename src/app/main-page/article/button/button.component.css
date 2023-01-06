@@ -27,3 +27,39 @@
   color: black;
   border: 2px solid black;
 }
+
+@media (max-width: 600px){
+  .button{
+    margin: 150px 0px 0 120px;
+    font-size: 20px;
+    padding: 20px 9px;
+  }
+}
+@media (min-width: 600px){
+  .button{
+    margin: 200px 0px 0 240px;
+    font-size: 22px;
+    padding: 24px 9px;
+  }
+}
+@media (min-width: 768px) {
+  .button{
+    margin: 250px 0px 0 280px;
+    font-size: 24px;
+    padding: 28px 9px;
+  }
+}
+@media (min-width: 992px){
+  .button{
+    margin: 40px 0px 0 600px;
+    font-size: 26px;
+    padding: 30px 9px;
+  }
+}
+@media (min-width: 1200px){
+  .button{
+    margin: 40px 0px 0 600px;
+    font-size: 28px;
+    padding: 30px 9px;
+  }
+}

@@ -7,3 +7,41 @@
   font-weight: bold;
   text-align: justify;
 }
+
+@media (max-width: 600px){
+  .fact {
+    margin-top: -210px;
+    margin-left: 250px;
+    font-size: 20px;
+  }
+}
+@media (min-width: 600px){
+  .fact{
+    margin-top: -250px;
+    margin-left: 280px;
+    font-size: 21px;
+  }
+}
+@media (min-width: 768px) {
+  .fact{
+    margin-top: -270px;
+    margin-left: 310px;
+    font-size: 22px;
+  }
+}
+@media (min-width: 992px){
+  .fact{
+    margin-top: -290px;
+    margin-left: 340px;
+    font-size: 24px;
+  }
+}
+@media (min-width: 1200px){
+  .fact {
+    margin-top: -310px;
+    margin-left: 380px;
+    font-size: 24px;
+  }
+
+}
+

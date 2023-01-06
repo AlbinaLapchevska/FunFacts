@@ -2,3 +2,18 @@
   width: 300px;
   margin: 10px 20px;
 }
+@media (max-width: 600px){
+  .image { width: 200px; }
+}
+@media (min-width: 600px){
+  .image{width: 240px;}
+}
+@media (min-width: 768px) {
+  .image{width: 260px;}
+}
+@media (min-width: 992px){
+  .image{width: 280px;}
+}
+@media (min-width: 1200px){
+  .image {width: 300px;}
+}

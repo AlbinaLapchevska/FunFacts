@@ -12,3 +12,36 @@
   border-radius: 20%;
   box-shadow: 15px 10px 20px #00ffa6;
 }
+
+
+@media (max-width: 600px){
+  .main {
+    padding-top: 420px;
+    font-size: 28px;
+  }
+}
+@media (min-width: 600px){
+  .main {
+    padding-top: 460px;
+    font-size: 30px;
+  }
+}
+@media (min-width: 768px) {
+  .main {
+    padding-top: 510px;
+    font-size: 34px;
+  }
+}
+@media (min-width: 992px){
+  .main {
+    padding-top: 590px;
+    font-size: 36px;
+  }
+}
+@media (min-width: 1200px){
+  .main {
+    padding-top: 650px;
+    font-size: 38px;
+  }
+}
+

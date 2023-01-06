@@ -7,10 +7,12 @@ body {
   overflow: hidden;
 }
 video {
-  min-width: 100%;
-  min-height: 100%;
+  width: 100%    !important;
+  min-height: 100% !important;
   left: 50%;
   top: 50%;
   position: absolute;
   transform: translate(-50%, -50%);
 }
+
+

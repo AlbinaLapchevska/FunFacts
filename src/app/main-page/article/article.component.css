@@ -7,3 +7,19 @@
   text-shadow: rgb(0, 0, 0) 1.5px 0 3px;
   text-transform: uppercase;
 }
+
+@media (max-width: 600px){
+  .article {  font-size: 40px;}
+}
+@media (min-width: 600px){
+  .article {font-size: 45px;}
+}
+@media (min-width: 768px) {
+  .article {font-size: 55px;}
+}
+@media (min-width: 992px){
+  .article {font-size: 60px;}
+}
+@media (min-width: 1200px){
+  .article {font-size: 65px;}
+}
