@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import {ChangeDetectorRef, Component, OnInit} from '@angular/core';
+import {firstValueFrom} from "rxjs";
+import {FactsService} from "../../api/facts.service";
 
 @Component({
   selector: 'app-article',
@@ -7,9 +9,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ArticleComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private factsService: FactsService,
+    private changeDetectorRef: ChangeDetectorRef
+  ) {
+
+  }
 
   ngOnInit() {
+    this.fetchFact();
+  }
+
+  public fact = "";
+  async fetchFact() {
+    this.fact= await firstValueFrom(this.factsService.getFact());
+    this.changeDetectorRef.detectChanges();
+    console.log(this.fact);
   }
 
 }
