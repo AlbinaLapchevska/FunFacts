@@ -7,12 +7,8 @@ import { Observable } from 'rxjs';
 })
 export class FactsService {
   constructor(private httpClient: HttpClient) {}
-
   getFact(): Observable<any> {
     return this.httpClient.get('https://uselessfacts.jsph.pl/random.json');
   }
 
-  test() {
-    console.log('Injectable working');
-  }
 }
