@@ -1,6 +1,6 @@
 import {ChangeDetectorRef, Component, OnInit} from '@angular/core';
 import {firstValueFrom} from "rxjs";
-import {FactsService} from "../../api/facts.service";
+import {FactsService} from "../../../core/api/facts.service";
 
 @Component({
   selector: 'app-article',
@@ -12,8 +12,8 @@ export class ArticleComponent implements OnInit {
   constructor(
     private factsService: FactsService,
     private changeDetectorRef: ChangeDetectorRef
-  ) {
-
+  )
+  {
   }
 
   ngOnInit() {

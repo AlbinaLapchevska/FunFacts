@@ -1,6 +1,6 @@
 import {ChangeDetectorRef, Component, Input, OnInit} from '@angular/core';
 import { firstValueFrom } from 'rxjs';
-import { FactsService } from '../../../api/facts.service';
+import { FactsService } from '../../../../core/api/facts.service';
 
 @Component({
   selector: 'app-article-text',
